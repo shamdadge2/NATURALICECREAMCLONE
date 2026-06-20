@@ -1,0 +1,321 @@
+.customTopNav{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.customGreenBTN{
+    background-color: green;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 9px;
+}
+nav.customNav{
+    background-color: rgb(74, 74, 74);
+    padding: 10px 0;
+}
+
+.customNavItem{
+    margin-right: 1.5rem;
+}
+.customNavLink{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.customNavLink:hover{
+    color: green;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#dfe3c6;
+    font-family:Arial, sans-serif;
+}
+
+.quote-section{
+    width:100%;
+    min-height:100vh;
+    background:#dfe3c6;
+    position:relative;
+    padding:10px 0;
+}
+
+.quote-box{
+    width:84%;
+    margin:auto;
+    background:#f5f5f5;
+    text-align:center;
+    padding:40px 20px;
+    margin-top: 15px;
+}
+
+.quote-box h1{
+    font-size:40px;
+    color:#1f2a44;
+    margin-bottom:15px;
+    font-family:Georgia, serif;
+}
+
+.quote-box p{
+    font-size:15px;
+    color:#333;
+}
+
+.video-box{
+    width:84%;
+    height:500px;
+    margin:auto;
+    background:black;
+}
+
+/* Leaves */
+.leaf{
+    position:absolute;
+    width:120px;
+}
+
+.left-leaf{
+    top:0;
+    left:0;
+}
+
+.right-leaf{
+    bottom:20px;
+    right:0;
+}
+
+/* Scroll Button */
+.top-btn{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#333;
+    color:white;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.images {
+    display: flex;
+    margin-top: 65px;
+   justify-content: space-around;
+}
+.images2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.img-box{
+    overflow: hidden;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.img-box:hover img{
+    transform: scale(1.1);
+}
+
+.heading {
+    text-align: center;
+}
+.IceCream {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.seasonal-best{
+    background:#dfe3c6;
+    padding:60px 80px;
+    text-align:center;
+}
+
+.seasonal-best h1{
+    font-size:50px;
+    margin-bottom:50px;
+    color:#1f2430;
+    font-family:Georgia, serif;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#fff;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    display:block;
+}
+
+
+.card-content{
+    padding:10px;
+    font-size:xx-small;
+}
+
+.card-content h3{
+    font-size:20px;
+    margin-bottom:15px;
+    font-family:Georgia, serif;
+}
+
+.card-content button{
+    background:#00b140;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:4px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.card-content button:hover{
+    background:#008d34;
+}
+
+.images3 {
+    display: flex;
+    margin-left: 90px;
+    padding: 5px;
+    
+    
+}
+.img2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ingredient-story{
+    background:#dde3c5;
+    padding:100px 8%;
+    text-align:center;
+    position:relative;
+}
+
+.ingredient-story h1{
+    font-size:55px;
+    font-family:Georgia, serif;
+    color:#1f2430;
+    margin-bottom:90px;
+}
+
+.ingredient-container{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    flex-wrap:wrap;
+}
+
+.ingredient-card{
+    width:320px;
+}
+
+.icon-circle{
+    width:70px;
+    height:70px;
+    border:3px solid #00a63e;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.icon-circle i{
+    font-size:32px;
+    color:#00a63e;
+}
+
+.ingredient-card h2{
+    font-size:27px;
+    font-family:Georgia, serif;
+    color:#1f2430;
+    margin-bottom:20px;
+}
+
+.ingredient-card p{
+    color:#777;
+    line-height:1.5;
+    font-size:14px;
+}
+
+.cocoimg {
+    text-align: center;
+}
+
+
+.customFooter{
+    background-color: gray;
+    padding: 3rem;
+    color: white;
+}
+.customFooter h5{
+    color: rgb(211, 211, 211);
+}
+
+.verticalLine{
+    border-left: 2px solid white;
+}
+.socialIcons{
+    margin-right: 20px;
+    margin-top: 4rem;
+    transition: transform 1s;
+
+}
+.socialIcons a{
+    font-size: 2rem;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 50%;
+    padding: 7px;
+}
+.socialIcons a:hover{
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
+.socialIcons:hover{
+    transform: translateY(-30px);
+
+}
+.carousel-item {
+    object-fit: cover;
+}
